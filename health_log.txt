@@ -1,0 +1,46 @@
+============================
+System Health Check — 2026-06-09 12:04:43
+============================
+
+-- CPU Usage --
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 93.3 id,  0.0 wa,  6.7 hi,  0.0 si,  0.0 st
+
+-- Memory Usage --
+               total        used        free      shared  buff/cache   available
+Mem:           1.7Gi       1.1Gi        89Mi        15Mi       716Mi       627Mi
+Swap:          2.0Gi       0.0Ki       2.0Gi
+
+-- Disk Usage --
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             822M     0  822M   0% /dev
+tmpfs                854M     0  854M   0% /dev/shm
+tmpfs                342M  5.5M  337M   2% /run
+/dev/mapper/cs-root   47G  6.4G   41G  14% /
+/dev/sda1            960M  675M  286M  71% /boot
+tmpfs                171M  100K  171M   1% /run/user/1000
+/dev/sr0              51M   51M     0 100% /run/media/falex/VBox_GAs_7.2.4
+
+Health check complete.
+============================
+System Health Check — 2026-06-09 12:05:58
+============================
+
+-- CPU Usage --
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni, 93.3 id,  0.0 wa,  6.7 hi,  0.0 si,  0.0 st
+
+-- Memory Usage --
+               total        used        free      shared  buff/cache   available
+Mem:           1.7Gi       1.0Gi       104Mi        15Mi       713Mi       639Mi
+Swap:          2.0Gi       0.0Ki       2.0Gi
+
+-- Disk Usage --
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             822M     0  822M   0% /dev
+tmpfs                854M     0  854M   0% /dev/shm
+tmpfs                342M  5.5M  337M   2% /run
+/dev/mapper/cs-root   47G  6.4G   41G  14% /
+/dev/sda1            960M  675M  286M  71% /boot
+tmpfs                171M  100K  171M   1% /run/user/1000
+/dev/sr0              51M   51M     0 100% /run/media/falex/VBox_GAs_7.2.4
+
+Health check complete.
