@@ -28,3 +28,9 @@ Appends results to health_log.txt with a timestamp on each run.
 - System monitoring commands
 - Log file management
 - File permissions with chmod
+
+
+
+## log-rotator.sh
+Compresses log files older than 7 days into timestamped .tar.gz archives.
+Deletes archives older than 30 days. Designed to run via cron for automated log management.
