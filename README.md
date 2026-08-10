@@ -34,3 +34,7 @@ Appends results to health_log.txt with a timestamp on each run.
 ## log-rotator.sh
 Compresses log files older than 7 days into timestamped .tar.gz archives.
 Deletes archives older than 30 days. Designed to run via cron for automated log management.
+
+
+## etc-backup.sh
+Backs up /etc into a timestamped .tar.gz archive nightly via cron. Automatically keeps only the last 7 backups, deleting older ones. Runs as root since /etc requires elevated permissions.
