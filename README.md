@@ -38,3 +38,7 @@ Deletes archives older than 30 days. Designed to run via cron for automated log 
 
 ## etc-backup.sh
 Backs up /etc into a timestamped .tar.gz archive nightly via cron. Automatically keeps only the last 7 backups, deleting older ones. Runs as root since /etc requires elevated permissions.
+
+
+## system-info-report.sh
+Full system snapshot: date/time, hostname, CPU load, memory & disk usage, top 5 processes by CPU, kernel/CPU info (uname/lscpu), logged-in users, and last 5 system log lines.
